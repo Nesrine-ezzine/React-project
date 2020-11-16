@@ -1,5 +1,5 @@
-import './App.css'
 import {Button} from 'react-bootstrap'
+import '../App.css'
 
 function Form() {
     return (
@@ -25,4 +25,4 @@ function Form() {
         </Form>);
 }
 
-export default Form()
+export default Form;

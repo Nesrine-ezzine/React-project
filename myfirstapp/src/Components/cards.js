@@ -1,8 +1,11 @@
-import  {Card, ListGroup, ListGroupItem} from "react-bootstrap"
+import  {Card, ListGroup, ListGroupItem, Container, Row, Col} from "react-bootstrap"
 
 function Cards () {
     return ( 
     <div>
+    <Container/>
+    <Row>
+        <Col>1 of 2</Col>
     <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src="https://cdn2.tendance-parfums.com/media/catalog/product/cache/5d4572d703c28aedeb7e374cd76a4024/n/5/n5-chanel-eau-de-parfum-vaporisateur-100-ml_1.jpg" />
     <Card.Body>
@@ -22,6 +25,7 @@ function Cards () {
     </Card.Body>
     </Card>
 
+    <Col>2 of 2</Col>
     <Card style={{ width: '18rem' }}>
     <Card.Img variant="top" src="https://fimgs.net/mdimg/perfume/403x538.10190.jpg" />
     <Card.Body>
@@ -40,8 +44,9 @@ function Cards () {
         <Card.Link href="#">Another Link</Card.Link>
     </Card.Body>
     </Card>
+    </Row>
     </div>
     );
     }
 
-export default Cards ()
+export default Cards;
