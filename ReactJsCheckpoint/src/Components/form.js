@@ -1,5 +1,4 @@
 import {Button} from 'react-bootstrap'
-import '../App.css'
 
 function Form() {
     return (
