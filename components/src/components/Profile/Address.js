@@ -2,7 +2,10 @@
 
 function Address () {
     return (
-        <h2>4709  Chenoweth Drive,Nashville,Tennessee</h2>
+        <form>
+            <label>Type Address</label>
+            <input type="text"/>
+        </form>
     )
 }
 

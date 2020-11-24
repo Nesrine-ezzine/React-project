@@ -2,7 +2,10 @@
 
 function FullName () {
     return (
-        <h2>John Doe</h2>
+        <form>
+            <label>Type Name</label>
+            <input type="text"/>
+        </form>
     )
 }
 
