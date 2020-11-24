@@ -2,11 +2,8 @@
 
 function Address () {
     return (
-        <form>
-            <label>Type Address</label>
-            <input type="text"/>
-        </form>
+        <h2> Tunisia </h2>
     )
 }
 
-export default Address;
+export default Address

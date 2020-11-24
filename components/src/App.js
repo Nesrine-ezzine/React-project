@@ -1,13 +1,13 @@
-import FullName from "./components/Profile/FullName.js"
-import Address from "./components/Profile/FullName.js"
-import ProfilePhoto from "./components/Profile/ProfilePhoto.js"
+import ProfilePhoto from "../src/components/Profile/ProfilePhoto.js"
+import Address from "../src/components/Profile/Address.js"
+import FullName from "../src/components/Profile/FullName.js"
 import './App.css';
 
 function App() {
   return (
     <div>
+      <ProfilePhoto/>
       <FullName/>
-      <ProfilePhoto />
       <Address/>
     </div>
   )

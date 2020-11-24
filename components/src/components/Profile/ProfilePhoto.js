@@ -1,4 +1,4 @@
-import ProfilePic from "./src/components/photos/ProfilePic.jpeg"
+import ProfilePic from "../photos/ProfilePic.jpeg"
 
 const ProfilePhoto= ()=> {
     return (
@@ -6,4 +6,4 @@ const ProfilePhoto= ()=> {
     );
 };
 
-export default ProfilePhoto;
+export default ProfilePhoto

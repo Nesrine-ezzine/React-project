@@ -2,11 +2,8 @@
 
 function FullName () {
     return (
-        <form>
-            <label>Type Name</label>
-            <input type="text"/>
-        </form>
+        <h2> Nesrine </h2>
     )
 }
 
-export default FullName;
+export default FullName
